@@ -1,0 +1,9 @@
+Cascading Order - Top to bottom approach
+
+Specificity - The level of importance are :-
+inline
+ID
+class
+elements 
+
+

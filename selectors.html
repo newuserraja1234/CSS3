@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /* Universal Selector */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Tag or Type Selector */
+        /* h1 {
+            background-color: #50ffcd;
+            color: #ff7f50;
+        } */
+
+        /* Class Selector */
+        .bg-yellow {
+            background-color: #ff0;
+        }
+
+        /* Id Selector */
+        #bg-pink {
+            background-color: #ffc0cb;
+        }
+
+        /* Attribute Selector */
+        a[target="_blank"]  {
+            background-color: #8a2be2;
+            color: #fff;
+        }
+
+        /* Grouping Selector */
+        h1, h2, h3  {
+            color: #ff7f50;
+        }
+
+        /*  Combinator Selectors */
+        
+
+        /* Descendant Selector */
+        /* ul li {
+            color: #006aff;
+        } */
+
+        /* Child Selector */
+        header > a {
+            background-color: #1278b8;
+        }
+
+        /* General Sibling Selector */
+        /* img ~ p {
+            background-color: #006400;
+            color: #fff;
+        } */
+
+        /* Adjacent Selector */
+        img + p {
+            background-color: #006400;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+    <h2 class="bg-yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+    <h3 id="bg-pink">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+    <a target="_parent" href="https://pwskills.com">PWSKILLS</a>
+    <a target="_blank" href="https://ineuron.ai">iNeuron</a> -->
+
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+    <!-- ul>li*3 -->
+    <!-- <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <li>Four</li> -->
+
+    <header>
+        <a href="#">Google</a>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <a href="#">Logo</a>
+            </ul>
+        </nav>
+        <a href="#">Bing</a>
+    </header>
+
+    <div>
+        <img src="#" alt="">
+        <p>Change Me</p>
+        <p>Change Me too</p>
+        <div>
+            <p>Can you Change Me?</p>
+        </div>
+    </div>
+</body>
+</html>

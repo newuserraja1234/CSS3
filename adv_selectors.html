@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Selectors</title>
+    <style>
+        /* Pseudo Selector */
+
+
+        /* Pseduo Class */
+
+        /* h1:hover {
+            background-color: #e9967a;
+        } */
+        button:focus {
+            background-color: #000;
+            color: #fff;
+        }
+        input:disabled {
+            background-color: #008000;
+        }
+        div {
+            color: #fff;
+        }
+        div:first-child {
+            background-color: #d1267b;
+        }
+        div:last-child {
+            background-color: #ffd000;
+        }
+        div:nth-child(2n) {
+            background-color: rgb(25, 47, 195);
+        }
+        /* Pseudo Elements */
+        /* Specials */
+        
+        h1::after {
+            color: #f00;
+            content: " !After!";
+        }
+        h1::before {
+            color: #ffd000;
+            content: "!Before! ";
+        }
+        p::first-letter {
+            font-size: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <button>Submit</button>
+    <input type="checkbox" name="" id="" disabled>
+
+    <h1>hover</h1>
+    <button>focus</button>
+    <input type="text" name="" id="" required="true" />
+    <input type="checkbox" />
+    <input type="text" disabled="true" />
+    <br/><br/>
+    <!-- div>div*3 -->
+    <div>
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+    </div>
+
+    <h1>Pseudo before and after selector</h1>
+    <h2>First letter selector</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptate soluta, expedita illo facere odio labore. Suscipit et laborum qui sapiente harum a ipsam fugiat quibusdam nobis eaque libero laudantium ipsa odio, enim voluptate dolore corrupti, maxime ea dolorum incidunt vero reiciendis ad modi vitae? Doloribus voluptates tenetur assumenda quisquam.</p>
+</body>  
+</html>
