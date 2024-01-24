@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border in CSS</title>
+    <style>
+        .solid {
+            /* border-style: solid; */
+            /* border-width: 10px; */
+            /* border-top-width: 10px;
+            border-bottom-width: 5px; */
+            /* border-color: #ff7f50; */
+            /* border-top-color: #ff7f50;
+            border-bottom-color: #adff2f; */
+            border: 10px solid #ff7f50;
+        }
+        .dotted {
+            border-style: dotted;
+        }
+        .groove {
+            height: 100px;
+            border: 10px solid #ffc0cb;
+            /* border-radius: 10px; */
+            /* border-radius: 20px 10px; */
+            /* border-radius: 15px 10px 5px; */
+            /* border-radius: 10px 20px 30px 40px; */
+            border-top-left-radius: 10px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 40px;
+        }
+        .mixup {
+            border-top-style: dashed;
+            border-right-style: dotted;
+            border-bottom-style: solid;
+            border-left-style: inset;
+        }
+    </style>
+</head>
+<body>
+    <div class="none">none</div>
+    <div class="solid">solid</div>
+    <div class="dotted">dotted</div>
+    <div class="dashed">dashed</div>
+    <div class="double">double</div>
+    <div class="groove">groove</div>
+    <div class="ridge">ridge</div>
+    <div class="inset">inset</div>
+    <div class="outset">outset</div>
+    <div class="mixup">dashed, dotted, solid and inset</div>
+</body>
+</html>
