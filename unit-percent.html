@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percent in Unit</title>
+    <style>
+        .base {
+            background-color: #800080;
+            color: #fff;
+        }
+        .fifty-percent {
+            width: 50%;
+        }
+        .hundred-px {
+            width: 100px;
+        }
+        .parent {
+            width: 250px;
+            border-style: solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="base fifty-percent">50%</div>
+    <div class="base hundred-px">100px</div>
+
+    <div class="parent">
+        <div class="base fifty-percent">50%</div>
+        <div class="base hundred-px">100px</div>
+    </div>
+    <p><b>px(pixel) - </b> It is static on screen.</p>
+    <p><b>%(percentage) - </b> It is relative to the parent element, if there is no parent then default parent is root element i.e html.</p>
+</body>
+</html>

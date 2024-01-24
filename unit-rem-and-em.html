@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rem and em Unit</title>
+    <style>
+        html {
+            /* Default size of browser might vary from browser to browser */
+            font-size: 16px;
+        }
+        .rems li {
+            font-size: 2.5rem;
+        }
+        p {
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Note :- -->
+    <p><b>rem - </b> It is a relative element that is relative to the default root elemnt.i.e html(whose default font-size = 16px).</p>
+
+     <!-- Example of rems(Relative elements) -->
+     <ul class="rems">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three
+            <ul>
+                <li>Three A</li>
+                <li>Three B
+                    <ul>
+                        <li>Three B 2</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Note:- -->
+    <p><b>em :-</b>
+        <ul>
+            <li>Relative to the font-size of the element (2em means 2 times the size of the current font)</li>
+            <li>Font size of the parent, in the case of typographical properties like font-size, and font size of the element itself, in the case of other properties like width.</li>
+        </ul>
+    </p>
+    
+</body>
+</html>

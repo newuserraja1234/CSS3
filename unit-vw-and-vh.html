@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vw and vh</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .base {
+            background-color: #800080;
+            color: #fff;
+        }
+        .box {
+            width: 250px;
+            border-style: solid;
+        }
+        .fifty-percent {
+            width: 50%;
+        }
+        .vw50 {
+            width: 50vw;
+        }
+        .vh50 {
+            height: 20vh;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Example of viewport widhth, percentage and viewport height -->
+    <div class="base fifty-percent">50%</div>
+    <div class="base vw50">50vw</div>
+    <div class="base vh50">50vh</div>
+
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, nihil?</h1>
+
+    <div class="box">
+        <div class="base fifty-percent">50%</div>
+        <div class="base vw50">50vw</div>
+        <div class="base vh50">50vh</div>
+    </div>
+    <!-- Note :- -->
+    <p><b>vw & vh -</b>This value independent does not rely or follow any parent but it relative to the viewport screen like laptop, pc, mobile, etc.</p>
+
+   
+</body>
+</html>
