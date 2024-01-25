@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Property in CSS</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        .float-div {
+            width: 200px;
+            height: 200px;
+            background-color: #a52a2a;
+            margin-left: 20px;
+            margin-right: 20px;
+            float: left;
+        }
+        .float-left {
+            width: 150px;
+            height: 150px;
+            background-color: #a52a2a;
+            /* margin-left: 20px; */
+            float: left;
+            border: 10px solid #000;
+            color: #fff;
+        }
+        .float-right {
+            width: 150px;
+            height: 200px;
+            background-color: #a52a2a;
+            float: right;
+            border: 10px solid #000;
+            color: #fff;
+        }
+        .para {
+            /* margin: 0 200px; */
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+    <!-- <p>
+        <div class="float-div"></div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas fuga vel suscipit cumque delectus incidunt, sequi natus, harum amet recusandae exercitationem dolorem nostrum magnam omnis? Consequatur dicta sequi repellendus illo dolores reiciendis enim, quos cumque nostrum excepturi recusandae! Laborum, architecto atque. Voluptate, ea corrupti. Quo at rerum incidunt repudiandae doloribus?
+    </p> -->
+
+    <div>
+        <div class="float-left">LEFT</div>
+        <div class="float-right">RIGHT</div>
+        <p class="para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eligendi quo voluptas sed consequatur  perspiciatis voluptatem sapiente nemo, reiciendis labore odio commodi ab, dolore quisquam iure quos  fuga porro, similique ipsum cumque iusto temporibus error dolorum. Nemo quam recusandae itaque dolor     aut quo, omnis voluptas obcaecati provident eveniet, dolores similique!
+        </p>
+    </div>
+</body>
+</html>
