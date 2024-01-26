@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+    <style>
+        .container {
+            border: 5px solid #000;
+            width: 500px;
+            height: 150px;
+            position: relative;
+            overflow: scroll;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+        }
+        .box-1 {
+            background-color: #ff7f50;
+            /* position: relative; */
+            /* top: 50px; */
+            /* left: 50px; */
+        }
+        .box-2 {
+            background-color: #008000;
+            /* position: fixed;
+            top: 100px;
+            left: 50px; */
+            position: sticky;
+            top: 20px;
+            left: 100px;
+        }
+        .box-3 {
+            background-color: #00f;
+        }
+    </style>
+</head>
+<body>
+    <!-- div.container>(div.box.box-$)*3 -->
+    <div class="container">
+        <div class="box box-1"></div>
+        <div class="box box-2"></div>
+        <div class="box box-3"></div>
+    </div>
+    <ul>
+        <li>
+            <p><b>Static(default)</b> - This value has no effect and it simple flow the normal layout of a document.</p>
+        </li>
+        <li>
+            <p><b>relative</b> - This value is relative to itself but it doesn't affect the other element because it doesn't break the DOM(Document Object Model).</p>
+        </li>
+        <li>
+            <p><b>absolute</b> - Elements that are relatively positioned remain in the normal flow of the document. In contrast, an element that is absolutely positioned is taken out of the flow; thus, other elements are positioned as if it did not exist. The absolutely positioned element is positioned relative to its nearest positioned ancestor (i.e., the nearest ancestor that is not static). If a positioned ancestor doesn't exist, it is positioned relative to the ICB (initial containing block — see also the W3C definition), which is the containing block of the document's root element. <b>A good practice is to keep it parent position relative.</b></p>
+        </li>
+        <li>
+            <p><b>fixed</b>- The element is removed from the normal document flow, and no space is created for the element in the page layout. The element is positioned relative to its initial containing block, which is the viewport in the case of visual media. Its final position is determined by the values of top, right, bottom, and left. <b>Note:- It is almost similar to absolute positioning in behaviour.</b></p>
+        </li>
+        <li>
+            <p><b>sticky</b> - Sticky positioning can be thought of as a hybrid of relative and fixed positioning when its nearest scrolling ancestor is the viewport. A stickily positioned element is treated as relatively positioned until it crosses a specified threshold, at which point it is treated as fixed until it reaches the boundary of its parent. <b>Note :- It doesn't break the normal layout.</b></p>
+        </li>
+    </ul>
+</body>
+</html>

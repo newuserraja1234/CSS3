@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>z-index</title>
+    <style>
+        .para {
+            overflow: auto;
+            /* overflow-x: scroll;
+            overflow-y: visible; */
+            border: 1px solid #000;
+            background-color: #50acfb;
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+        }
+        .container {
+            position: relative;
+        }
+        .box {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            font-size: 20px;
+            color: #fff;
+        }
+        .box-1 {
+            background-color: #f00;
+        }
+        .box-2 {
+            left: 50px;
+            top: 50px;
+            z-index: 2;
+            background-color: #008000;
+        }
+        .box-3 {
+            background-color: #00f;
+            top: 70px;
+            left: 70px;
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <p class="para">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto libero nulla, non labore quo hic! Excepturi, rerum. Architecto commodi deserunt aspernatur provident ipsa temporibus quibusdam aliquam, nisi numquam consequuntur, nostrum, impedit assumenda earum officia odit omnis quod perspiciatis iusto? Quae sequi, hic ducimus voluptate tempore ullam maxime debitis adipisci voluptas, quasi ipsam placeat saepe necessitatibus, quam dolore! Neque incidunt dolorum deserunt in odio, quo minus sed iste veniam dignissimos nesciunt tenetur rem aut illum, eos eum ducimus necessitatibus dicta porro consequuntur officiis aspernatur atque quaerat eaque. Et ipsam veritatis quos. Labore, a exercitationem. Quaerat distinctio fugiat aliquid dignissimos at voluptatibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit repellat nostrum quos ipsum in quas harum nam, perferendis dignissimos iure consequuntur natus iusto accusamus saepe iste odio enim voluptatum unde! Inventore, delectus repudiandae. Nihil assumenda officiis porro enim autem placeat ipsum nam, unde dolore quibusdam voluptatem ullam cupiditate at quisquam cum blanditiis velit repellendus aliquid eum ducimus dolorem impedit. Voluptatem distinctio ipsum quo tenetur placeat nihil, perspiciatis alias sint facilis expedita reiciendis rem amet minus explicabo ab aperiam veritatis assumenda? In officiis, voluptas alias enim tempore, illum optio nisi maiores, ducimus quae minus maxime facere rem veritatis! Deserunt cum atque libero, quasi voluptatibus veritatis perspiciatis nemo hic eum eligendi accusamus illo similique, beatae, doloremque inventore id suscipit. Aspernatur dolorum numquam laborum assumenda! Minus, quas optio debitis asperiores enim ex error veniam voluptatibus delectus laboriosam, ratione dicta? Exercitationem, et officia ipsa odio cum obcaecati perspiciatis! Optio, modi! Ut nesciunt eveniet quia. Dolorum adipisci, facilis eligendi inventore quaerat quidem ullam? Error quos commodi, non repellendus, odio vitae voluptas laborum, id dolorem nobis excepturi eius asperiores. Laudantium ipsum porro magni est nemo maxime dicta perspiciatis, quod autem fugiat sint fugit. Reprehenderit perferendis, quibusdam repudiandae architecto, commodi nulla facere, accusantium nam pariatur laborum in.
+    </p>
+    <div class="container">
+        <div class="box box-1">z-index 1</div>
+        <div class="box box-2">z-index 2</div>
+        <div class="box box-3">z-index 3</div>
+    </div>
+</body>
+</html>
