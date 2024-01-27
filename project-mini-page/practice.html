@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        body {
+            background-color: #171313;
+            color: #fff;
+        }
+        /* Universal Selector */
+        *  {
+            padding: 0;
+            margin: 0;
+        }
+        .pwskills-logo {
+            width: 100%;
+            background-color: #add8e6;
+        }
+        #Nopadding {
+            padding: 0;
+        }
+        /* Descendant Selector */
+        ul li {
+            list-style-type: none;
+            padding: 10px;
+            border-bottom: 2px solid #000;
+        }
+        li > a {
+            text-decoration: none;
+            color: #fff;
+        }
+        nav {
+            float: left;
+            background-color: #383737;
+            height: 100vh;
+            width: 140px;
+            margin-right: 50px;
+        }
+        .main {
+            text-align: center;
+        }
+        .main > h1 {
+            color: #6d54de;
+            margin-bottom: 30px;
+        }
+        .founder-image {
+            width: 550px;
+            height: 350px;
+            padding: 20px 0;
+        }
+        .para {
+            text-align: left;
+            width: 95%;
+        }
+        .bot-icon > img {
+            width: 50px;
+        }
+        .bot-icon {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="Nopadding"><img  class="pwskills-logo" src="./assets/Pwskills logo.png" alt="PWSkills Logo" /></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">PW Skills Lab</a></li>
+            <li><a href="#">Job Portal</a></li>
+            <li><a href="#" >Experience <br/>Portal</a></li>
+            <li><a href="#">Hall of Fame</a></li>
+            <li><a href="#">Become an <br/> Affilate</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <h1>PW Skills</h1>
+        <p class="para">
+            PW Skills' mission is to permeate through every student/professional's outlook towards jobs and change their attitude and perspective from "How Can I Do It?" to "Of Course I Can Do It". We aim to do this by providing exceptional up skilling courses at affordable rates, while being tech-forward so anyone, anywhere can access and improve their ability to be successful in life. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius repellat earum perspiciatis fugit magni veritatis necessitatibus porro quaerat similique minus, voluptate quidem ab facilis iure commodi libero repudiandae, minima repellendus! Illum, veritatis odit cumque veniam iure fugiat enim beatae sapiente in rem quis consectetur sit quod voluptates eaque pariatur vero!
+        </p>
+        <img class="founder-image" src="./assets/alakh_pandey_img.png" alt="Alakh Pandey Image"/>
+        <h1>Our Mission</h1>
+        <p class="para">
+            PW Skills is the result of a continual effort to exponentially increase the employability of every Indian, irrespective of their socioeconomic status. With accessibility and affordability being the support structure of high-quality, industry-relevant courses, PW Skills aims to empower professionals and students alike to either jumpstart their careers or leverage existing skills with new, future-driven upgrades that will help them realise their full potential. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut totam incidunt harum esse? Autem, quia voluptate. Cum reprehenderit nemo perferendis.
+        </p>
+    </div>
+    <!-- Chatbot Image -->
+    <div class="bot-icon">
+        <img src="./assets/chat.png" alt="Chatbot Image" />
+    </div>
+</body>
+</html>
