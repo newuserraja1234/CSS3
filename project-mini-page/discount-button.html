@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Button</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+        .container {
+            border: 2px solid #000;
+            width: 500px;
+            height: 500px;
+            /* text-align: center; */
+        }
+        .parent {
+            padding: 10px 40px;
+            background-color: #ff7f50;
+            font-weight: bold;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            border-radius: 5px;
+            border: none;
+            margin-top: 200px;
+            margin-left: 150px;
+        }
+        .child {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            position: fixed;
+            top: 190px;
+            left: 260px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="parent">Buy Now</button>
+        <button class="child">15% Off</button>
+    </div>
+</body>
+</html>
