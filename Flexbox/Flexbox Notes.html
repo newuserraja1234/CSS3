@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Notes</title>
+</head>
+<body>
+    <h2>Flex Container Properties :-</h2>
+    <dl>
+        <dt><b>display: flex</b></dt>
+        <dd>This will enable to apply all CSS flexbox properties and by default it align all the items in a row order.</dd>
+        <dt><b>flex-direction: row(default)</b></dt>
+        <dd>This property allow to align the items either in a row or column. It's default value on the web i.e main-axis is row.</dd>
+        <dt><b>flex-wrap: nowrap(default)</b></dt>
+        <dd>The flex-wrap CSS property sets whether flex items are forced onto one line or can wrap onto multiple lines. If wrapping is allowed, it sets the direction that lines are stacked.</dd>
+        <dt><b>flex-flow - row nowrap(default)</b></dt>
+        <dd>The flex-flow CSS property is a shorthand property of flex-direction and flex-wrap.</dd>
+        <dt><b>justify-content: flex-start(default)</b></dt>
+        <dd>The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container. <b>Note :- The property work and align the item on the main axis.ie. left to right.</b></dd>
+        <dt><b>align-items: stretch(default)</b></dt>
+        <dd>The CSS align-items property sets the align-self value on all direct children as a group. In Flexbox, it controls the alignment of items on the <b>Cross Axis i.e left to right</b>. </dd>
+        <dt><b>align-content: stretch(default)</b></dt>
+        <dd>The CSS align-content property sets the distribution of space between and around content items along a flexbox's cross-axis. <b>Note :- But align-content is for multi line flexible boxes. It has no effect when items are in a single line. It aligns the whole structure according to its value.</b></dd>
+    </dl>
+    <h2>Flex Items Properties:-</h2>
+    <dl>
+        <dt><b>order:-</b></dt>
+        <dd>By default, flex items are laid out in the source order. However, the order property controls the order in which they appear in the flex container.</dd>
+        <dt><b>flex-grow :-</b>0(default)</dt>
+        <dd>This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion.</dd>
+        <dt><b>flex-shrink:-</b>1(default)</dt>
+        <dd>This defines the ability for a flex item to shrink if necessary.</dd>
+        <dt><b>flex-basis:-</b>auto(default)</dt>
+        <dd>This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword.</dd>
+        <dt><b>align-self:-</b>stretch(default)</dt>
+        <dd>This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword.</dd>
+    </dl>
+
+    <h3>For Further Infromation kindly click on the below link:-</h3>
+    <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Flexbox Cheat Sheet</a>
+</body>
+</html>
