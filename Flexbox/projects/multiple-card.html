@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #c7e3ed;
+        }
+        h1 {
+            color: #8a2be2;
+            margin-top: 10px;
+        }
+        .summary-line {
+            font-size: 13px;
+        }
+        header {
+            text-align: center;
+        }
+        .image-style {
+            width: 300px;
+        }
+        section {
+            background-color: #fff;
+            width: 300px;
+            height: 300px;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .headline {
+            color: #8a2be2;
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .instructor-name {
+            margin-top: 10px;
+        }
+        main {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 500px;
+        }
+        .free {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Community Programs</h1>
+        <p class="summary-line">Open to all pro live-classes on Youtube for free.</p>
+    </header>
+    <main>
+        <!-- section>img.image-style+h2.headline+p.instructor-name+p.free -->
+        <section>
+            <img src="./assets/C++_Foundation_Course_Front_Cover.png" alt="Course Front Cover Image" class="image-style" />
+            <h2 class="headline">Master C++ Foundation from Basic to Advanced</h2>
+            <p class="instructor-name">Urvi Geol</p>
+            <p class="free"><b>FREE</b></p>
+        </section>
+
+        <section>
+            <img src="./assets/FSD_Front_Cover.png" alt="Course Front Cover Image" class="image-style" />
+            <h2 class="headline">Master Full Stack Web Development from Basic to Advanced.</h2>
+            <p class="instructor-name">Hitesh Chaudhary</p>
+            <p class="free"><b>FREE</b></p>
+        </section>
+
+        <section>
+            <img src="./assets/Pre_Placement_Training_Program_Front_Cover.png" alt="Course Front Cover Image" class="image-style" />
+            <h2 class="headline">Pre Placement Training Program from A to Z</h2>
+            <p class="instructor-name">Vishwa Mohan</p>
+            <p class="free"><b></b></p>
+            <p class="free"><b>FREE</b></p>
+        </section>
+    </main>
+</body>
+</html>
