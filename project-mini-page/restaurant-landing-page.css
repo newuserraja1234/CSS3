@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0 50px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+.header {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.section-1 {
+    width: 80%;
+    margin-right: 80px;
+}
+.section-2 img {
+    height: 100vh;
+}
+.section-3 {
+    width: 200px;
+    height: 100vh;
+    background-color: #ff0;
+}
+.button-styling {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    margin-top: 40px;
+}
+
+.logo-image {
+    width: 50px;
+    position: relative;
+    right: 50px;
+    bottom: 10px;
+}
+.navbar {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-link  a{
+    text-decoration: none;
+    color: #000;
+    margin: 0 30px;
+}
+
+.login-button {
+    color: #000;
+    background-color: #54e454;
+    font-weight: bold;
+    height: 30px;
+    padding: 0 50px;
+    border-radius: 5px;
+    padding-top: 10px;
+    position: relative;
+    bottom: 5px;
+}
+.order-section {
+    background: #2B1E16;
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.order-section > div {
+    width: 310px;
+    text-align: center;
+}
+.order-section-header {
+    font-weight: bolder;
+    margin: 20px 0;
+}
+.order-section-para {
+    color: #f5c4c4;
+    opacity: 0.4;
+}
+.cust-style1 {
+    margin-top: 30px;
+}
+.cust-style2 {
+    margin-top: 52px;
+}
+
+.service-offer-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.service  {
+    border: 1px solid #000;
+    width: 400px;
+    height: 330px;
+    border-radius: 20px;
+    text-align: center;
+}
+.service > img {
+    width: 400px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.service-offer-header {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.footer {
+    height: 300px;
+    background-color: #2B1E16;
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    padding: 40px;
+    padding-left: 0;
+    flex-wrap: wrap;
+}
+
+.logo-image-footer {
+    width: 250px;
+    height: 250px;
+}
+.navigation-links > a {
+    text-decoration: none;
+    display: block;
+    color: #9f6c4e;
+    opacity: 0.7;
+    padding: 10px;
+}
+.navigation-links > h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.navigation-links {
+    padding-right: 200px;
+}
+.center-align {
+    font-weight: bolder;
+}
