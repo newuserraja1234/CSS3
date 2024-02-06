@@ -1,0 +1,76 @@
+
+.container {
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+}
+.item img{
+    border-radius: 10px;
+}
+.item-1 {
+    width: 350px;
+    height: 200px;
+}
+.item-2 {
+    width: 350px;
+    height: 400px;
+}
+.item-3 {
+    width: 350px;
+    height: 200px;
+}
+.item-4 {
+    width: 350px;
+    height: 400px;
+}
+.item-5 {
+    width: 350px;
+    height: 400px;
+}
+
+.item-6 {
+    width: 350px;
+    height: 200px;
+}
+.item-7 {
+    width: 350px;
+    height: 400px;
+}
+.item-8 {
+    width: 350px;
+    height: 200px;
+}
+
+/* Box Sizing */
+.box-1 {
+    width: 350px;
+    height: 200px;
+}
+.box-4 {
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+.box-5 {
+    position: absolute;
+    top: 220px;
+    left: 0;
+}
+.box-6 {
+    position: absolute;
+    top: 420px;
+    left: 370px;
+}
+.box-7 {
+    position: absolute;
+    top: 220px;
+    left: 740px;
+}
+.box-8 {
+    position: absolute;
+    left: 1110px;
+    top: 420px;
+}
