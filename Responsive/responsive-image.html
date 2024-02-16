@@ -3,77 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Images</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-        h1 {
-            text-align: center;
-            text-decoration: underline;
-        }
-        .container {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
-        }
-        .item > img {
-            width: 400px;
-            border: 3px solid #000;
-            border-radius: 20px;
-        }
-        @media screen and (max-width: 576px) {
-            h1 {
-                width: 50vh;
-            }
-            .item > img {
-                width: 80vh;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="responsive-image.css" />
+    <title>Responsive Image</title>
 </head>
 <body>
-    <h1>Random Images</h1>
-    <div class="container">
-        <div class="item">
+    <header>
+        <h1>Random Images</h1>
+    </header>    
+    
+    <main class="parent">
+        <section class="child">
             <img 
-                src="https://images.pexels.com/photos/276267/pexels-photo-276267.jpeg?auto=compress&cs=tinysrgb&w=800 " 
-                alt="Image 01"
+                src="https://images.pexels.com/photos/276267/pexels-photo-276267.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                alt="Image-01"
             />
-        </div>
-        <div class="item">
+        </section>
+
+        <section class="child">
             <img 
                 src="https://images.pexels.com/photos/34299/herbs-flavoring-seasoning-cooking.jpg?auto=compress&cs=tinysrgb&w=800" 
-                alt="Image 02"
+                alt="Image-02"
             />
-        </div>
-        <div class="item">
+        </section>
+
+        <section class="child">
             <img 
                 src="https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                alt="Image 04" 
+                alt="Image-03"
             />
-        </div>
-        <div class="item">
+        </section>
+
+        <section class="child">
             <img 
                 src="https://images.pexels.com/photos/7256897/pexels-photo-7256897.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                alt="Image 04" 
+                alt="Image-04"
             />
-        </div>
-        <div class="item">
+        </section>
+
+        <section class="child">
             <img 
                 src="https://images.pexels.com/photos/7256897/pexels-photo-7256897.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                alt="Image 05"
+                alt="Image-05"
             />
-        </div>
-        <div class="item">
+        </section>
+
+        <section class="child">
             <img 
                 src="https://images.pexels.com/photos/4614204/pexels-photo-4614204.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                alt="Image 06"
+                alt="Image-06"
             />
-        </div>
-    </div>
+        </section>
+    </main>
 </body>
 </html>
