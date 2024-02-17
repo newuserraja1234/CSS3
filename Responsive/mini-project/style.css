@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f4774c;
+}
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #af6450;
+}
+.navContainer {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.navContainer > div {
+    display: flex;
+    gap: 20px;
+}
+
+.blockOne,
+.blockTwo,
+.blockThree {
+    background-color: #98c2c2;
+    width: 100px;
+    height: 30px;
+}
+
+.blockFour {
+    height: 40px;
+    width: 500px;
+    background-color: #f18a64;
+}
+
+/* main body */ 
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+.articleOne {
+    height: 500px;
+    width: 60%;
+    background-color: #93c4c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #fff 20px;
+}
+.articleContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.articleTwo,
+.articleThree {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.textContainer > div {
+    margin-bottom: 5px;
+    background-color: #808080;
+}
+
+.textSkeletonOne {
+    height: 25px;
+    width: 200px;  
+}
+
+.textSkeletonTwo {
+    height: 25px;
+    width: 150px;
+}
+.articleTwo {
+    background-color: #fff;
+}
+
+.articleThree {
+    background-color: #93c4c9;
+}
+
+.telephoneImage, 
+.fileImage {
+    width: 150px;
+}
+
+@media screen and (max-width: 998px) {
+    body {
+        background-color: rgb(241, 88, 16);
+    }
+    .main {
+        flex-direction: column;
+    }
+    .articleOne {
+        width: 100%;
+    }
+    .articleContainer {
+        width: 100%;
+    }
+    .telephoneImage,
+    .fileImage {
+        /* width: 70px */
+        width: 20vw;
+    }
+    .articleOne > img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:  576px) {
+    body {
+        background-color: #008000;
+    }
+    .main {
+        padding: 20px;
+    }
+    .articleContainer {
+        flex-direction: column;
+    }
+    .articleTwo,
+    .articleThree {
+        flex-direction: column;
+    }
+    .textSkeletonOne {
+        width: 150px;
+        height: 15px;
+    }
+    .textSkeletonTwo {
+        width: 100px;
+        height: 15px;
+    }
+    .navContainer > div {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .blockOne,
+    .blockTwo,
+    .blockThree {
+        width: 50px;
+        height: 10px;
+        background-color: rgb(37, 195, 247);
+    }
+}
